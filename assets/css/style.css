@@ -1970,8 +1970,10 @@ p.blog-desc {
   transition: all 500ms ease;
 }
 .thank {
-font-size: 22px;
+font-family: "Italianno";
+font-size: 35px;
 margin-bottom: 1rem;
+color: #000;
 }
 
 .banner-btn a::after {
