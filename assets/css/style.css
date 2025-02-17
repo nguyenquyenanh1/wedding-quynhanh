@@ -378,7 +378,7 @@ section.lavewell-slider-area {
 }
 
 .lavewell-slider-height {
-  height: 950px;
+  height: 1280px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -390,15 +390,42 @@ section.lavewell-slider-area {
 
 .lavewell-slider-bg,
 .lavewell-slider-bg2 {
-  background: url(../images/slider/slider-1-bg.jpg);
+  background: url(../images/slider/slider-1-bg.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
 }
 
 .lavewell-slider-bg2 {
-  background: url(../images/slider/slider-2-bg.jpg);
+  background: url(../images/slider/slider-2-bg.webp);
 }
+@media (max-width: 768px) {
+  .lavewell-slider-bg {
+    background: url(../images/slider/slider-3-bg.webp);
+    background-size: cover;
+    background-position: center center;
+  }
+}
+@media (max-width: 768px) {
+  .lavewell-slider-bg2 {
+    background: url(../images/slider/slider-4-bg.webp);
+    background-size: cover;
+    background-position: center center;
+  }
+}
+@media (max-width: 768px) {
+  .lavewell-slider-bg2 {
+    background: url(../images/slider/slider-4-bg.webp);
+    background-size: cover;
+    background-position: center center;
+  }
+}
+@media (max-width: 768px) {
+  .lavewell-slider-bg {
+   display: none;
+  }
+}
+
 
 .lavewell-slider-bg,
 .lavewell-slider-bg2 {
@@ -531,7 +558,7 @@ h1.lavewell-slider-title {
   top: 472px;
   z-index: 5;
   border: 0;
-  background: url(../images/slider/slider-1-bg.jpg);
+  background: url(../images/slider/slider-1-bg.webp);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -544,7 +571,7 @@ h1.lavewell-slider-title {
 }
 
 button.slider-next {
-  background: url(../images/slider/slider-2-bg.jpg);
+  background: url(../images/slider/slider-2-bg.webp);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -601,7 +628,7 @@ button.slider-next {
   <!--start  lavewell service area css-->
 <!-- ======================================= -->*/
 .service-area {
-  padding: 150px 0 100px;
+  padding: 30px 0 100px;
   background: url(../images/home-1/ser-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -641,7 +668,7 @@ h5.service-sub-title {
 
 h1.service-title {
   font-size: 60px;
-  line-height: 110px;
+  line-height: 80px;
   color: #232323;
   font-weight: 400;
   margin: 0;
@@ -906,7 +933,7 @@ h2.counter-title {
   line-height: 55px;
   font-weight: 400;
   color: #232323;
-  margin-top: 28px;
+  margin-top: 0;
 }
 
 .section-main-title h2 {
@@ -1000,7 +1027,7 @@ h2.counter-title {
 }
 
 .contact-area .section-title.text-center {
-  margin-bottom: 80px;
+  margin-bottom: 20px;
 }
 
 .blog-area .section-title.text-center {
@@ -1059,7 +1086,7 @@ h2.counter-title {
   line-height: 42px;
   color: #232323;
   font-weight: 400;
-  margin: 36px 0 24px;
+  margin: 15px 0 15px;
 }
 
 .wedding-desc div {
@@ -1113,7 +1140,7 @@ h2.counter-title {
   position: absolute;
   margin-bottom: 10px;
   left: 35%;
-  top: 58%;
+  top: 57%;
   z-index: 1;
 }
 
@@ -1122,7 +1149,7 @@ h2.counter-title {
   margin-bottom: 10px;
   left: auto;
   right: 39%;
-  top: 58%;
+  top: 57%;
   z-index: 1;
 }
 
@@ -1342,7 +1369,7 @@ h2.counter-title {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 125px 0 150px;
+  /* padding: 125px 0 150px; */
 }
 
 .form-box {
@@ -4269,7 +4296,7 @@ button {
   position: relative;
   padding: 10px 20px;
   font-size: 16px;
-  background-color: #28a745;
+  background-color: #97aa85;
   color: white;
   border: none;
   border-radius: 5px;
@@ -4323,7 +4350,44 @@ button {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s, transform 0.2s;
 }
-
+#location {
+  z-index: 1;
+  position: fixed;
+  right: 40px;
+  bottom: 120px; /* Cách đáy 20px */
+  width: 40px;
+  height: 40px;
+  background-color: #c0c0ff; 
+  color: white;
+  border: none;
+  border-radius: 50%; /* Bo tròn nút */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px; /* Tăng kích thước icon */
+  cursor: pointer;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.2s;
+}
+#confirm {
+  z-index: 1;
+  position: fixed;
+  right: 40px;
+  bottom: 170px; /* Cách đáy 20px */
+  width: 40px;
+  height: 40px;
+  background-color: #c0c0ff; 
+  color: white;
+  border: none;
+  border-radius: 50%; /* Bo tròn nút */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px; /* Tăng kích thước icon */
+  cursor: pointer;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.2s;
+}
 
 #playMusicButton .icon {
   animation: pulse 1.5s infinite;
@@ -4367,4 +4431,204 @@ button#submitButton {
 }
 h2.confirm-wedding-title {
   margin-bottom: 12px;
+}
+.time-lunch {
+  text-align: left;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600&display=swap');
+
+.wedding-countdown {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    background: url('https://source.unsplash.com/1600x900/?wedding,romantic') no-repeat center center/cover;
+    color: #fff;
+    padding: 40px 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.wedding-countdown h2 {
+    font-family: "Great Vibes", cursive;
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+
+.countdown {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 400px;
+    margin: auto;
+}
+
+.countdown div {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 15px;
+    border-radius: 12px;
+    width: 80px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+
+.countdown div:hover {
+    transform: scale(1.1);
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.countdown span {
+    font-size: 2.2rem;
+    font-weight: bold;
+    display: block;
+}
+
+.label {
+    font-size: 0.9rem;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+/* Mobile Responsive */
+@media (max-width: 480px) {
+    .wedding-countdown {
+        padding: 30px 10px;
+    }
+
+    .wedding-countdown h2 {
+        font-size: 2.3rem;
+    }
+
+    .countdown {
+        gap: 10px;
+    }
+
+    .countdown div {
+        width: 70px;
+        padding: 12px;
+    }
+
+    .countdown span {
+        font-size: 1.8rem;
+    }
+
+    .label {
+        font-size: 0.8rem;
+    }
+    section.lavewell-slider-area {
+      position: relative;
+      margin-top: 0px;
+  }
+}
+.single-wedding-box.cursor-scale.aos-init.aos-animate {
+  text-align: center;
+}
+a.ggmap {
+  display: flex;
+  justify-content: center;
+}
+a.ggmap1 {
+  display: flex;
+  justify-content: center;
+}
+input#name {
+  border-radius: 30px;
+}
+input#phone {
+  border-radius: 30px;
+}
+select#attendance {
+  border-radius: 30px;
+}
+input#guests {
+  border-radius: 30px;
+}
+.service-box {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.service-thumb {
+  position: relative;
+  display: inline-block;
+}
+
+.service-thumb img {
+  width: 100%;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 192, 203, 0.7); /* Màu hồng mờ */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #d9534f;
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Hiện overlay khi hover trên PC */
+.service-box:hover .overlay {
+  opacity: 1;
+}
+
+/* Hiện overlay khi chạm trên mobile */
+.service-box:active .overlay {
+  opacity: 1;
+}
+
+/* Border animation */
+.border-animation {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  right: 5px;
+  bottom: 5px;
+  border: 4px solid white;
+  animation: borderMove 2s infinite linear;
+}
+
+/* Hiệu ứng chạy border */
+@keyframes borderMove {
+  0% {
+      clip-path: inset(0px 100% 100% 0px);
+  }
+  25% {
+      clip-path: inset(0px 0px 100% 0px);
+  }
+  50% {
+      clip-path: inset(0px 0px 0px 100%);
+  }
+  75% {
+      clip-path: inset(100% 0px 0px 0px);
+  }
+  100% {
+      clip-path: inset(0px 100% 100% 0px);
+  }
+}
+h2.groom-name {
+  font-size: 60px;
+  color: white;
+}
+p.groom-sub {
+  color: white;
+}
+.service-thumb {
+  border: 10px solid antiquewhite;
+}
+h5.service-sub-title.aos-init.aos-animate {
+  margin-top: 0;
 }

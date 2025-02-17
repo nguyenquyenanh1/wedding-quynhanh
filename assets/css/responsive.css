@@ -1338,7 +1338,7 @@
   }
 
   .service-area .service-content {
-    padding: 50px 0px 15px;
+    padding: 25px 0px 15px;
   }
 
   .single-service-box.box-2 {
@@ -1808,7 +1808,7 @@
   }
 
   h1.lavewell-slider-title {
-    font-size: 60px;
+    font-size: 46px;
   }
 
   .lavewell-slider-arrow-box button {
@@ -1831,7 +1831,7 @@
   }
 
   .service-area .service-content {
-    padding: 50px 0px 15px;
+    padding: 0px 0px 0px;
   }
 
   h1.service-title {
@@ -1845,7 +1845,7 @@
   }
 
   .service-area .single-service-box {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
   }
 
   .service-shape {
@@ -1884,7 +1884,7 @@
   }
 
   .wedding-event-area .section-main-title h1 {
-    font-size: 80px;
+    font-size: 48px;
     line-height: 100px;
     margin-top: 0;
   }
@@ -1908,7 +1908,7 @@
 
   .single-wedding-box.box-2 {
     text-align: left;
-    margin: 30px 0 0 15px;
+    margin: 0px 0 0 15px;
   }
 
   .single-wedding-box.last-child {
@@ -1986,10 +1986,6 @@
   }
 
   /* gallery */
-
-  .gallery-area {
-    padding: 100px 15px 100px 15px;
-  }
 
   .gallery-area .section-main-title h1 {
     font-size: 50px;
@@ -2536,3 +2532,169 @@
     margin-bottom: 20px;
   }
 }
+@media (max-width: 768px) {
+  .a1 {
+      flex-direction: column; /* Chuyển sang hiển thị dọc */
+      align-items: center; /* Căn giữa nội dung */
+      gap: 5px; /* Giảm khoảng cách giữa các dòng */
+  }
+}
+@media (max-width: 768px) {
+  a.ggmap {
+      justify-content: flex-start;
+  }
+}
+@media (max-width: 768px) { 
+  .single-wedding-box {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .time-lunch {
+    text-align: center;
+  }
+  a.ggmap {
+    justify-content: center;
+  }
+  .single-wedding-box.box-2.cursor-scale.aos-init.aos-animate {
+    text-align: center;}
+  .gallery-area .section-title.text-center {
+    margin-bottom: 10px;
+  }
+}
+
+/* Định dạng tổng thể */
+.clock-container {
+  text-align: center;
+  font-family: "Arial", sans-serif;
+}
+
+/* Ngày tháng phía trên */
+.clock-container h3 {
+  font-size: 28px;
+  color: white;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+/* Tạo 2 gạch 2 bên */
+.clock-container h3::before,
+.clock-container h3::after {
+  content: "";
+  width: 50px;
+  height: 1px;
+  background: #a28d60;
+  position: absolute;
+  top: 50%;
+}
+
+.clock-container h3::before {
+  left: -60px;
+}
+
+.clock-container h3::after {
+  right: -60px;
+}
+
+/* Lưới chứa các ô */
+.clock-grids {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Ô thời gian */
+.clock-box {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #f1bb44;
+  border-radius: 5px;
+}
+
+/* Số hiển thị */
+.clock-box .time {
+  font-size: 35px;
+  font-weight: 500;
+  color: white;
+  font-family: 'Italianno';
+  padding-top: 8px;
+}
+
+/* Nhãn (Days, Hours...) */
+.clock-box span {
+  font-size: 24px;
+  color: white;
+}
+
+/* Responsive cho mobile */
+@media (max-width: 768px) {
+  .clock-grids {
+      gap: 8px;
+  }
+  
+  .clock-box {
+      width: 70px;
+      height: 70px;
+  }
+
+  /* .clock-box .time {
+      font-size: 20px;
+  }
+
+  .clock-box span {
+      font-size: 12px;
+  } */
+}
+span.time-clockm {
+  font-size: 26px;
+  font-weight: 500;
+  font-family: 'Italianno';
+  padding-top: 4px;
+}
+@media (max-width: 768px) {
+  .coutner-area {
+      display: none;    
+  }
+  .gallery-area {
+    padding: 15px 15px 15px 15px;
+  }
+  .footer-area {
+    padding: 20px 0 20px;
+  }
+  .service-area {
+    padding: 15px 0 15px;
+  }
+  .a1 {
+    padding-bottom: 0rem;
+  }
+  .wedding-event-area {
+    padding: 0px 0 0px;
+  }
+  .section-title.text-center {
+    margin-bottom: 20px;
+}
+.single-service-box, .single-service-box.box-2 {
+  padding: 5px 10px 5px;
+}
+.ggmap1 {
+  display: none;
+}
+.mapdelete {
+ display: none;
+}
+.single-service-box.box-2.aos-init.aos-animate {
+  border-bottom: 1px dotted #97aa85;
+}
+.contact-area {
+  margin-top: 15px;
+}
+
+}
+
+
