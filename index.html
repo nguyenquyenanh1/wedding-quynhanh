@@ -23,7 +23,8 @@
       type="text/css"
       media="all"
     />
-
+    <!-- scss -->
+    <link rel="stylesheet" href="assets/scss/style.css">
     <!-- animate CSS -->
     <link
       rel="stylesheet"
@@ -157,19 +158,19 @@
                           <div class="clock-grids">
                               <div class="clock-box">
                                   <div class="time" id="days">00</div>
-                                  <span class="time-clockm">Days</span>
+                                  <span class="time-clockm">Ngày</span>
                               </div>
                               <div class="clock-box">
                                   <div class="time" id="hours">00</div>
-                                  <span class="time-clockm">Hours</span>
+                                  <span class="time-clockm">Giờ</span>
                               </div>
                               <div class="clock-box">
                                   <div class="time" id="minutes">00</div>
-                                  <span class="time-clockm">Mins</span>
+                                  <span class="time-clockm">Phút</span>
                               </div>
                               <div class="clock-box">
                                   <div class="time" id="seconds">00</div>
-                                  <span class="time-clockm">Secs</span>
+                                  <span class="time-clockm">Giây</span>
                               </div>
                           </div>
                       </div>
@@ -273,7 +274,6 @@
               </div>
               <div class="service-social-icon">
               </div>
-              <!-- overlay -->
             </div>
           </div>
         </div>
@@ -350,18 +350,12 @@
               <div class="section-sub-title">
                 <h5>Wedding Time</h5>
               </div>
-              <!-- <div class="section-main-title">
-                <h1>Thời Gian & Địa Điểm</h1>
-              </div> -->
             </div>
           </div>
         </div>
         <div class="row wedding-box align-items-center">
           <div class="col-lg-4 pl-0">
             <div class="text-center single-wedding-box box-2 cursor-scale aos-init aos-animate" data-aos="fade-up">
-              <!-- <div class="wedding-number">
-                <span>Thời gian & địa điểm</span>
-              </div> -->
               <div class="wedding-title">
                 <h1>Lễ Thành Hôn</h1>
               </div>
@@ -380,26 +374,25 @@
                         Xem Vị Trí
                     </button>
                   </a>
-                  <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231.72570841501096!2d104.93170043690539!3d21.678971603267577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31335b1d6c6d37b5%3A0xf627cf3be104eee0!2zw4FvIETDoGkgS2hhbmggU2FuZw!5e0!3m2!1sen!2s!4v1739353257895!5m2!1sen!2s" 
-                    width="100%" 
-                    height="200px" 
-                    style="border: 1px;" 
-                    allowfullscreen="" 
-                    loading="lazy" 
-                    referrerpolicy="no-referrer-when-downgrade"
-                    class="mapdelete">
-                  </iframe>
+                  <div class="iframe-container">
+                    <iframe 
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231.72570841501096!2d104.93170043690539!3d21.678971603267577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31335b1d6c6d37b5%3A0xf627cf3be104eee0!2zw4FvIETDoGkgS2hhbmggU2FuZw!5e0!3m2!1sen!2s!4v1739353257895!5m2!1sen!2s" 
+                      width="100%" 
+                      height="200px" 
+                      style="border: 1px;" 
+                      allowfullscreen="" 
+                      loading="lazy" 
+                      referrerpolicy="no-referrer-when-downgrade"
+                      class="mapdelete">
+                    </iframe>
+                  </div>  
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4">
-            <div class="single-wedding-box cursor-scale aos-init aos-animate" data-aos="fade-up">
-              <!-- <div class="wedding-number">
-                <span>Thời gian & địa điểm</span>
-              </div> -->
+          <div class="col-lg-4 pl-0">
+            <div class="single-wedding-box box-2 cursor-scale aos-init aos-animate" data-aos="fade-up">
               <div class="wedding-title">
                 <h1>Tiệc Cưới Nhà Trai</h1>
               </div>
@@ -417,24 +410,23 @@
                       Xem Vị Trí
                   </button>
                 </a>
-                <iframe 
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231.72570841501096!2d104.93170043690539!3d21.678971603267577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31335b1d6c6d37b5%3A0xf627cf3be104eee0!2zw4FvIETDoGkgS2hhbmggU2FuZw!5e0!3m2!1sen!2s!4v1739353257895!5m2!1sen!2s" 
-                  width="100%" 
-                  height="200px" 
-                  style="border: 1px;" 
-                  allowfullscreen="" 
-                  loading="lazy" 
-                  referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
+                <div class="iframe-container">
+                  <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d231.72570841501096!2d104.93170043690539!3d21.678971603267577!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31335b1d6c6d37b5%3A0xf627cf3be104eee0!2zw4FvIETDoGkgS2hhbmggU2FuZw!5e0!3m2!1sen!2s!4v1739353257895!5m2!1sen!2s" 
+                    width="100%" 
+                    height="200px" 
+                    style="border: 1px;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                  </iframe>
+                </div>
               </div>
             </div>
           </div>
      
           <div class="col-lg-4 pl-0">
             <div class="single-wedding-box box-2 cursor-scale aos-init aos-animate" data-aos="fade-up">
-              <!-- <div class="wedding-number">
-                <span>Thời gian & địa điểm</span>
-              </div> -->
               <div class="wedding-title">
                 <h1>Tiệc Cưới Nhà Gái</h1>
               </div>
@@ -453,15 +445,17 @@
                       Xem Vị Trí
                     </button>
                   </a>
-                  <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3708.482459019818!2d104.92033551131631!3d21.645081780080254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31335d00498ff78d%3A0x18c9edb30c0fefcc!2zTmjDoCB2xINuIGjDs2EgdGjDtG4gR8OyIELDtG5n!5e0!3m2!1sen!2s!4v1739616648533!5m2!1sen!2s"
-                    width="100%" 
-                    height="200px" 
-                    style="border: 1px;" 
-                    allowfullscreen="" 
-                    loading="lazy" 
-                    referrerpolicy="no-referrer-when-downgrade">
-                  </iframe>
+                  <div class="iframe-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3708.482459019818!2d104.92033551131631!3d21.645081780080254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31335d00498ff78d%3A0x18c9edb30c0fefcc!2zTmjDoCB2xINuIGjDs2EgdGjDtG4gR8OyIELDtG5n!5e0!3m2!1sen!2s!4v1739616648533!5m2!1sen!2s"
+                        width="100%" 
+                        height="200px" 
+                        style="border: none;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
                 </div>
               </div>
             </div>
@@ -486,7 +480,6 @@
           </div>
         </div>
         <div class="container-contact" id="contactForm">
-          <!-- <h2 class="confirm-wedding-title">Xác nhận tham gia đám cưới</h2> -->
           <form id="weddingForm">
               <input type="text" id="name" placeholder="Họ và tên" required>
               <input type="tel" id="phone" placeholder="Số điện thoại" required>
@@ -512,7 +505,7 @@
           <div class="col-lg-12">
             <div class="section-title text-center cursor-scale aos-init aos-animate" data-aos="flip-up">
               <div class="section-sub-title">
-                <h5>Gallery of Love</h5>
+                <h5>Bấm vào ảnh để xem</h5>
               </div>
               <div class="section-main-title">
                 <h1>Album Ảnh</h1>
@@ -952,23 +945,8 @@ Fancybox.bind("[data-fancybox='gallery']", {
       display: ["zoom", "close"], // Các nút trên thanh công cụ
     },
   });
-</script>
-
-<style>
-	/* customizable heart styling */
-	.heart {
-	  color: #fad7eb;
-	  font-size: 2em;
-	  font-family: Arial, sans-serif;
-	  text-shadow: 0 0 5px #ffffff;
-	}
-	
-
-	@-webkit-keyframes hearts-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes hearts-shake{0%,100%{-webkit-transform:translateX(0);transform:translateX(0)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}}@keyframes hearts-fall{0%{top:-10%}100%{top:100%}}@keyframes hearts-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.heart{position:fixed;top:-10%;z-index:9999;-webkit-animation-name:hearts-fall,hearts-shake;animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:hearts-fall,hearts-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.heart:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.heart:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.heart:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.heart:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.heart:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.heart:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.heart:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.heart:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.heart:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.heart:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}.heart:nth-of-type(10){left:25%;-webkit-animation-delay:2s,0s;animation-delay:2s,0s}.heart:nth-of-type(11){left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s}
-	</style>
-
   
-
+</script>
 
 
 
