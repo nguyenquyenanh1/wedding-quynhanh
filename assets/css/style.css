@@ -1296,20 +1296,6 @@ h2.counter-title {
   transition: 0.5s;
 }
 
-.gallery__thumb-box::before {
-  position: absolute;
-  content: "";
-  height: 96%;
-  width: 96%;
-  background: rgb(151 170 133 / 0.9);
-  left: 2%;
-  top: 2%;
-  right: 2%;
-  bottom: 2%;
-  transform: scale(0);
-  transition: 0.5s;
-}
-
 .gallery__thumb-icon {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -4680,3 +4666,22 @@ h5.service-sub-title.aos-init.aos-animate {
   position: relative;
   z-index: 10;
 }
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -5px;
+}
+
+.grid-item {
+  width: calc(33.333% - 0px); /* Tự động điều chỉnh kích thước */
+  /* margin: 5px; */
+}
+
+.grid-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+  /* border-radius: 8px; */
+}
+
