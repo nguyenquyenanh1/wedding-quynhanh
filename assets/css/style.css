@@ -1282,7 +1282,7 @@ h2.counter-title {
   <!--start lavewell gallery area css-->
 =======================================*/
 .gallery-area {
-  padding: 125px 52px 110px 32px;
+  padding: 100px 52px 15px 32px;
 }
 
 .gallery-area.bottom {
@@ -1829,7 +1829,6 @@ p.blog-desc {
 
 .footer-area {
   background: #fff;
-  padding: 100px 0 82px;
   position: relative;
 }
 
@@ -1982,9 +1981,9 @@ p.blog-desc {
   transition: all 500ms ease;
 }
 .thank {
-font-family: "Italianno";
+font-family: cursive;
 font-size: 35px;
-margin-bottom: 1rem;
+margin-bottom: 40px;
 color: #000;
 }
 
