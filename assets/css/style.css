@@ -285,9 +285,6 @@ nav.lavewell_menu span {
   color: #43baff;
 }
 
-.mobile-menu.mean-container {
-  overflow: hidden;
-}
 
 .header-btn {
   text-align: right;
@@ -1045,14 +1042,14 @@ h2.counter-title {
 /*============================================
  <!--start lavewell wedding event area css-->
 ==============================================*/
-.wedding-event-area {
+/* .wedding-event-area {
   background: url(../images/home-1/Wedding-bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   padding: 125px 0 150px;
   position: relative;
-}
+} */
 
 .single-wedding-box {
   text-align: right;
@@ -2489,105 +2486,6 @@ h5.team-sub-title {
 /*=========================================
 <!--start lavewell call to action area css-->
 ===========================================*/
-.call-to-action-area {
-  background: #f4f0ed;
-}
-
-.call-to-action-area.inner {
-  padding-top: 150px;
-}
-
-.call-to-action-area.inner-2 {
-  background: #fff;
-  padding-top: 150px;
-}
-
-.row.call-bg {
-  background: url(../images/home-2/call-action-bg.jpg);
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 65px 0px 58px 65px;
-}
-
-.call-to-action-area.inner-2 .row.call-bg {
-  background: url(../images/inner/call-action-bg2.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 65px 0px 58px 65px;
-}
-
-h5.call-action-title {
-  color: #97aa85;
-  font-size: 14px;
-  font-weight: 400;
-  font-family: "Josefin Sans";
-}
-
-h1.call-sub-title {
-  font-size: 60px;
-  font-weight: 400;
-  margin-top: 15px;
-}
-
-.call-action-btn {
-  text-align: center;
-}
-
-.call-action-btn a {
-  display: inline-block;
-  font-size: 14px;
-  text-transform: uppercase;
-  color: #ffffff;
-  font-weight: 500;
-  background: #97aa85;
-  padding: 15px 36px;
-  margin-right: 14px;
-  position: relative;
-  z-index: 1;
-  transition: 0.5s;
-  border: 1px solid transparent;
-}
-
-.call-action-btn a::before {
-  position: absolute;
-  content: "";
-  width: 141px;
-  height: 40px;
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  left: 0px;
-  top: 0;
-  right: 0;
-  margin: auto;
-  bottom: 0;
-}
-
-.call-action-btn a::after {
-  position: absolute;
-  content: "";
-  height: 100%;
-  width: 100%;
-  background: #fff;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  transform: scale(0);
-  transition: 0.5s;
-  z-index: -1;
-}
-
-.call-to-action-area.inner-2 .call-action-btn a::after {
-  background: #f4f0ed;
-}
-
-.call-action-btn a:hover::after {
-  transform: scale(1);
-}
-
-.call-action-btn:hover a {
-  color: #232323;
-  border: 1px solid rgba(255, 255, 255, 0.15);
-}
 
 /*=========================================
 <!--start lavewell breadcumb Area css-->
@@ -4104,34 +4002,6 @@ p.details-desc,
   scroll-behavior: smooth;
 }
 
-/* Start  Curser pointer CSS */
-
-.cursor {
-  position: fixed;
-  width: 40px;
-  height: 40px;
-  margin-left: -20px;
-  margin-top: -20px;
-  border-radius: 50%;
-  border: 2px solid #97aa85;
-  transition: 0.3s;
-  transform: translate(-50%, -50%);
-  pointer-events: none;
-  z-index: 1000;
-}
-.cursor2 {
-  position: fixed;
-  width: 4px;
-  height: 4px;
-  margin-left: -20px;
-  margin-top: -20px;
-  border-radius: 50%;
-  background-color: #fff;
-  transform: translate(-50%, -50%);
-  transition: 0.1s;
-  pointer-events: none;
-  z-index: 1000;
-}
 
 .grow,
 .grow-small {
@@ -4150,7 +4020,7 @@ p.details-desc,
 /*===========================
 <-- lavewellro Loader Css -->
 =============================*/
-#loading {
+/* #loading {
   background-color: #97aa85;
   height: 100%;
   width: 100%;
@@ -4237,14 +4107,8 @@ p.details-desc,
     -webkit-transform: rotate(360deg) scale(0.8);
     transform: rotate(360deg) scale(0.8);
   }
-}
-.a1 {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 2rem;
-  color: black;
-  font-size: 20px;
-}
+} */
+
 .container-contact {
   max-width: 600px;
   background: white;
