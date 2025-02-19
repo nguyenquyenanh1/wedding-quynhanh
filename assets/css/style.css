@@ -4532,7 +4532,7 @@ input#guests {
   display: block;
 }
 
-.overlay {
+/* .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -4549,20 +4549,20 @@ input#guests {
   font-weight: bold;
   opacity: 0;
   transition: opacity 0.3s ease-in-out;
-}
+} */
 
 /* Hiện overlay khi hover trên PC */
-.service-box:hover .overlay {
+/* .service-box:hover .overlay {
   opacity: 1;
-}
+} */
 
 /* Hiện overlay khi chạm trên mobile */
-.service-box:active .overlay {
+/* .service-box:active .overlay {
   opacity: 1;
-}
+} */
 
 /* Border animation */
-.border-animation {
+/* .border-animation {
   position: absolute;
   top: 5px;
   left: 5px;
@@ -4570,10 +4570,10 @@ input#guests {
   bottom: 5px;
   border: 4px solid #ffd2d2;
   animation: borderMove 2s infinite linear;
-}
+} */
 
 /* Hiệu ứng chạy border */
-@keyframes borderMove {
+/* @keyframes borderMove {
   0% {
       clip-path: inset(0px 100% 100% 0px);
   }
@@ -4589,15 +4589,15 @@ input#guests {
   100% {
       clip-path: inset(0px 100% 100% 0px);
   }
-}
-h2.groom-name {
+} */
+/* h2.groom-name {
   font-size: 60px;
   color: #f28985;
   margin-bottom: 15px;
 }
 p.groom-sub {
   color: #f28985;
-}
+} */
 h5.service-sub-title.aos-init.aos-animate {
   margin-top: 0;
 }
