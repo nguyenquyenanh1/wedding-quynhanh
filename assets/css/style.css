@@ -4548,4 +4548,10 @@ h5.service-sub-title.aos-init.aos-animate {
   height: auto;
   /* border-radius: 8px; */
 }
-
+.a1 {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+  color: black;
+  font-size: 20px;
+}

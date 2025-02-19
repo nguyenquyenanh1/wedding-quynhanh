@@ -2209,10 +2209,10 @@ span.time-clockm {
   .mapdelete {
   display: none;
   }
-  .single-service-box.box-2.aos-init.aos-animate {
+  /* .single-service-box.box-2.aos-init.aos-animate {
     border-bottom: 1px dotted #97aa85;
     margin-bottom: 8px;
-  }
+  } */
   .contact-area {
     margin-top: 15px;
     padding-bottom: 15px;
